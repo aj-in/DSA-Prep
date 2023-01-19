@@ -5,7 +5,7 @@ std::string is_palindrome(std::string text){
 
 std::string rev_str;
 
-for (int i=text.size()-1 ; i>=0 ; i--){     // len() - 1, cuz index is 1 less than len, i>=0 cuz 0 is the min
+for (int i=text.size()-1 ; i>=0 ; i--){     // len() - 1, cuz index is 1 less than len, i>=0 cuz 0 is the min index of strings
   rev_str += text[i];
 }
 
